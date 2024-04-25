@@ -1,0 +1,401 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f7fef7;
+    display: flex;
+    flex-direction: column;
+}
+#topPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* height: 100vh; */
+}
+.topPic {
+    box-shadow:
+    0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+}
+.topPhoto {
+    margin-top: 50px;
+}
+.topNames {
+    margin: 30px 0px;
+}
+.heartsDevider {
+    background-image: url(hearts.jpg);
+    height: 20vh;
+    position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topHeader {
+    margin-top: 60px;
+}
+.topHeaderText {
+    font-family: "Pacifico", cursive;
+    letter-spacing: 2px;
+    color: #434343;
+    text-shadow: 20px 20px rgba(124,124,124,0.2);
+}
+
+#weddingCountdown {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #434343;
+}
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.block {
+    font-family: "Arimo", sans-serif;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+h4 {
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+}
+p {
+    line-height: 35px;
+    font-size: 22px;
+    font-family: "Arimo", sans-serif;
+}
+.wedding {
+    padding: 0 20px;
+    border-right: 1px solid rgba(254,253,248,0.5);
+}
+.weddingNoBorder {
+    padding: 0 20px;
+}
+.slogan {
+    text-align: center;
+    margin-top: 40px;
+    color: #434343;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    /* margin: 40px 0px; */
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: #434343;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+.timing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.timingBlock {
+    display: flex;
+    margin-top: 40px;
+    width: 500px;
+    color: #434343;
+}
+.wedTime {
+    margin-right: 50px;
+    margin-left: 100px;
+}
+.address {
+    font-size: 16px;
+    color: rgba(124,124,124,0.7);
+}
+.timigInfo {
+    margin-left: 50px;
+}
+
+#location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.locationBlock {
+    display: flex;
+    margin-top: 50px;
+}
+.locationPic {
+    outline: 1px solid rgba(124,124,124,0.7);
+    outline-offset: 5px;
+    opacity: .7;
+    /* filter: brightness(0.7); */
+}
+.locationPic:hover {
+    opacity: 1;
+    /* filter: brightness(1); */
+}
+.ceremonyText {
+    margin-left: 50px;
+    align-self: center;
+    color: #434343;
+}
+.banquetText {
+    margin-right: 50px;
+    align-self: center;
+    text-align: end;
+    color: #434343;
+}
+a {
+    color: #434343;
+    cursor: pointer;
+}
+a:active {
+    color: rgba(124,124,124,0.7);
+}
+
+#dressCode {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 600px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    color: #434343;
+}
+.dresscodeColors {
+    margin-top: 60px;
+}
+
+#details, #confirmation {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 500px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    color: #434343;
+}
+.detailsText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.detailsDivider {
+    width: 20%;
+    border: 0.7px solid #434343;
+    margin-top: 40px;
+    align-self: center;
+}
+
+.confirmDate {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    text-shadow: 3px -3px rgba(124,124,124,0.2);
+}
+.confirmationContacts {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px;
+}
+.confirmBlock {
+    position: relative;
+}
+.confirmPic {
+    border-radius: 50%;
+    outline: 1px solid rgba(124,124,124,0.7);
+    outline-offset: 5px;
+}
+.confirmWApp {
+    position: absolute;
+    bottom: 5px;
+    left: 90px;
+    z-index: 99;
+}
+.ending {
+    max-width: 400px;
+    align-self: center;
+}
+.ending::before, .ending::after {
+    content: "";
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: #a681a6;
+    margin: auto;
+}
+.textToGuest {
+    margin: 30px 0px;
+    color: #233643;
+    font-weight: bolder;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+}
+.myInfo {
+    font-family: "Arimo", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(124,124,124,0.7);
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.myInfo:hover {
+    color: rgba(124,124,124,1);
+} 
+.myName {
+    font-weight: 600;
+}
+
+@media all and (max-width:1024px) {
+    .heartsDevider {
+        height: 10vh;
+    }
+}
+
+@media all and (max-width:768px) {
+    #topPage {
+        height: 100vh;
+    }
+    .topPhoto {
+        margin-top: 80px;
+    }
+    .dateTop {
+        margin-top: 40px;
+    }
+    .topNames {
+        margin: 60px 0px;
+    }
+    .locationPic {
+        width: 250px;
+    }
+}
+@media all and (max-width:550px) {
+    .locationBlock {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .topPhoto {
+        margin-top: 60px;
+    }
+    .topPic {
+        width: 400px;
+    }
+    .topNames {
+        margin: 60px 0px;
+    }
+    .invitationTop {
+        width: 300px;
+    }
+    .dateTop {
+        margin-top: 20px;
+    }
+    .invitationTopDate {
+        width: 250px;
+    }
+    #location {
+        text-align: center;
+    }
+    .secondBlock {
+        flex-direction: column-reverse;
+    }
+    .ceremonyText {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .banquetText {
+        margin-right: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    p {
+        font-size: 18px;
+    }
+    .wedding, .weddingNoBorder {
+        padding: 0 10px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    #dressCode, #details, #confirmation {
+        width: 400px;
+    }
+    .colors {
+        width: 300px;
+    }
+    .confirmPic {
+        width: 90px;
+    }
+    .confirmWApp {
+        left: 60px;
+    }
+    .textToGuest {
+        font-size: 25px;
+        width: 300px;
+    }
+}
+
+@media all and (max-width:450px) {
+    .topPic {
+        width: 350px;
+    }
+    .timingBlock {
+        width: 350px;
+    }
+    .wedTime {
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+}
+@media all and (max-width:420px) {
+    #dressCode, #details, #confirmation {
+        width: 350px;
+    }
+    p {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .confirmationContacts {
+        display: flex;
+        flex-direction: column;
+    }
+    .confirmBlock {
+        margin-top: 10px;
+    }
+    .textToGuest {
+        font-size: 22px;
+        width: 280px;
+    }
+    .confirmWApp {
+        right: -10px;
+    }
+}
+@media all and (max-width:360px) {
+    .topPic {
+        width: 300px;
+    }
+}
