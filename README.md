@@ -9,7 +9,7 @@ Website-invitation which include:
 
 ## Demo
 
-- Live Site URL: [live site URL here](hhttps://lightblue-design.glitch.me/)
+- Live Site URL: [live site URL here](https://lightblue-design.glitch.me/)
 
 
 ## Built with
